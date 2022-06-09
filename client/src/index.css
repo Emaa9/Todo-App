@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+.header {
+    color: rgb(252, 245, 245);
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 20px;
+    font-family:cursive;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.55rem;
+    background: linear-gradient(rgb(148, 185, 73), rgb(71, 129, 96));
+    border-bottom:2px solid rgb(2, 49, 24);
+}
+
+.App{
+    border: 1px ridge rgb(154, 167, 128);
+    margin-top: 1rem;
+}
+.form{
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+
+.task{
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.count{
+    font-size: 15px;
+    padding: 0.5rem;
+    background:rgb(71, 129, 96);
+    text-shadow: 1px 5px 10px #000000;
+    border-top: 2px solid rgb(140, 89, 89);
+    color: rgb(252, 250, 248);
+}
+.todo{
+    border-bottom: 0.2px solid gray;
+    font-size: 30px;
+    padding-left: 0.5rem;
+    color: rgb(84, 77, 77);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.add{
+    font-size: 14px;
+    padding: 1rem;
+    text-align: center;
+}
+.card{
+    background: rgb(239, 195, 208);
+    margin: auto;
+    width: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.list{
+    max-height: 500px;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+}
+.button{
+   margin-left: 12rem;
+   margin-bottom: 0.5rem;
+   box-shadow: #cfb3b3;
+}
+.button1{
+    color: white;
+    padding: 6px;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: 1px solid ; 
+    border-radius: 10px;
+    background-color: rgb(45, 140, 203);
+}
+@media screen and (max-width: 650px){
+    .App{
+      max-width: 300px;
+    }
+    form input {
+        min-width: 50%;
+        padding: 7px;
+        border: 1px solid rgb(143, 143, 143);
+        outline: none;
+        border-radius: 3px;
+        font-family: "Abel", sans-serif;
+        font-size: 15px;
+        font-weight: 50;
+      }
+  
+      .card{
+        background: rgb(239, 195, 208);
+        margin: auto;
+        width: 200px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .todo{
+        border-bottom: 0.2px solid gray;
+        font-size: 18px;
+        padding-left: 0.5rem;
+        color: rgb(84, 77, 77);
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 200;
+    }
+    .button{
+        margin-left: 2rem;
+        margin-bottom: 0.5rem;
+        box-shadow: #cfb3b3;
+     }
+  }
