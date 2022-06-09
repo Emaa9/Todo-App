@@ -3,7 +3,7 @@
 This app allows you to add tasks you want to do. You can add tasks, 
 update, or delete them. The app run on the server and the server is 
 connected with database. For database I used MongoDB, and the tasks that 
-you input are stored in the database. The whole app is created with React.js, I used Redux Toolkit for managing the state and Redux DevTools for debugging application's state changes.
+you input are stored in the database. The whole app is created with React.js, HTML and CSS .I used Redux Toolkit for managing the state and Redux DevTools for debugging application's state changes.
 
 
 How to start this app:
