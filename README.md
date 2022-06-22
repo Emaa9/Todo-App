@@ -10,6 +10,6 @@ How to start this app:
 
 Step1. You should install node_modules in the client folder (cd client) with this command: npm i
 
-Step2. To start server you should first go in the server folder with this command: cd server and then you should start with the command: npm start
+Step2. To start server first you should go in the server folder with this command: cd server and then you should start with the command: npm start
 
 Step3. To start client folder you should go in the client folder with command: cd client and then you should start with the command: npm start
